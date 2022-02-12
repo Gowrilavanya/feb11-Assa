@@ -1,0 +1,82 @@
+sno=int(input("enter sno"))
+sname=input("enter sname")
+s1=int(input("s1 marks"))
+s2=int(input("s2 marks"))
+s3=int(input("s3 marks"))
+s4=int(input("s4 marks"))
+s5=int(input("s5 marks"))
+s6=int(input("s6 marks"))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6 
+if s1<35 and s2<35 and s3<35 and s4<35 and s5<35 and s6<35:
+    print("fail")
+else:
+    if avg>=91:
+        print('o-grade')
+    elif avg>=81:
+        print('A-grade')
+    elif avg>=71:
+        print('B-grade')
+    elif avg>=61:
+        print('C-grade')
+    elif avg>=51:
+        print('D-grade')    
+    elif avg>=41:
+        print('pass')
+
+
+Output:
+enter sno
+
+49 
+
+enter sname
+
+S.Gowri Lavanya 
+
+s1 marks
+
+95 
+
+s2 marks
+
+93 
+
+s3 marks
+
+81 
+
+s4 marks
+
+97 
+
+s5 marks
+
+98 
+
+s6 marks
+
+88 
+
+o-grade
+
+
+Output 2:
+
+enter sno
+43
+enter sname
+K.Sree
+s1 marks
+56
+s2 marks
+61
+s3 marks
+51
+s4 marks
+77
+s5 marks
+40
+s6 marks
+31
+D-grade
